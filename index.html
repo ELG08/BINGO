@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML og CSS grunnur">
+    <meta name="author" content="Nemandi">
+    <title>Verkefni 1. Vinnurammi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/svg" href="images/rwd-icon.svg">
+</head>
+<body>
+  <nav class="topnav">
+    <input type="checkbox" id="toggle">
+    <label for="toggle">&#9776;</label>
+    <section class="topmenu">
+      <a href="index.html"><span class="icon-happy"></span> Forsíða</a>
+      <a href="panta.html"><span class="icon-ticket"></span> Panta borð</a>
+      <a href="verðskrá.html"><span class="icon-file-text"></span> Verðskrá</a>
+      <a href="hvar.html"><span class="icon-location"></span> Hvar</a>
+    </section>
+
+  </nav>
+
+  <header class="container col-2 litur">
+    <article>
+      <h1>Hvað mun gerast?</h1>
+      <p>Bingo er leikur sem bæði er einfaldur og spennandi, komdu og taktu þátt í þessari frábæru skemmtun þar sem þú getur unnið stórt! Það verður fullt af fjöri og gríðarlegri spennu þegar við dregjum út númerin – þú veist aldrei hver mun verða næsti sigurvegari!
+        Stórir vinningarnir bíða þín! Við höfum fullt af frábærum vinningum í boði, svo það er alltaf tækifæri til að vinna stórt eða bara til að njóta leikjanna og stemningarinnar með vinum og fjölskyldu.
+        Reglur leiksins:
+        <ul>
+          <li>1.	Hver leikmaður fær bingo-spjald með númerum.</li>  
+          <li>2.	Leikstjóri dregur númer og kallar þau upp hátt og greinilega.</li>
+          <li>3.	Ef þú átt númer sem hefur verið kallað, merkir þú það á spjaldinu þínu.</li>
+          <li>4.	Þegar þú hefur náð að merkja 5 númer í beinni línu – lárétt, lóðrétt, ská eða á annan hátt sem skilgreindur er fyrir hverja umferð – kallar þú „BINGO!“.</li>
+          <li>5.	Ef þú kallar BINGO og það er rétt, þá hefur þú unnið vinning!</li>
+        </ul>
+      </p>
+    </article>
+    <section>
+      <div id=slideset2>
+        <section>
+          <h1>BINGO raðir</h1>
+          <img src="Myndir/BINGOleikur1.jpg" alt="">
+        </section>
+  
+        <section>
+          <h1>BINGO raðir</h1>
+          <img src="Myndir/BINGOleikur2.jpg" alt="">
+        </section>
+  
+        <section>
+          <h1>BINGO raðir</h1>
+          <img src="Myndir/BINGOleikur3.jpg" alt="">
+        </section>
+
+        <section>
+          <h1>BINGO raðir</h1>
+          <img src="Myndir/BINGOleikur4.jpg" alt="">
+        </section> 
+
+        <section>
+          <h1>BINGO raðir</h1>
+          <img src="Myndir/BINGOleikur5.jpg" alt="">
+        </section> 
+      </div>
+    </section>
+</header>
+  <footer class="container col-2 endir">
+    <dl>              <!--Description list -->
+      <dt>Nafn</dt>
+        <dd>ELG</dd>
+      <dt>Staðsetning Viðburðs</dt>
+        <dd>Tækniskólinn, Háteigsvegi 35-39</dd>
+      <dt>Dagsetning</dt>
+        <dd>30. mars</dd>
+      <dt>Vefhönnun</dt>
+        <dd>VEFÞ2VHB5AU, tölvubraut Tækniskólans</dd>
+    </dl>  
+
+    <nav>
+      <span class="icon-BINGOlogo2 stor"></span>
+    </nav>
+  
+  </footer>
+  <p class="center endir">&copy;ELG</p>
+    
+  
+  <section class="Chat">
+    <input type="checkbox" id="togglechat">
+    <label for="togglechat" class="chat"><span class="icon-bubbles3"></span></label>
+    <section class="chatbox">
+      <form method="get" action="takk.html">
+        <fieldset>
+          <legend><strong>Spjallbox</strong></legend>
+          <p>
+            <label>Nafn:</label><br>
+            <input type="text" placeholder="Name" required></p>
+          <p>
+            <label>Tölvupóstur:</label><br> 
+            <input type="email" placeholder="Email" required></p>
+          <p>
+            <label>Skilaboð:</label><br>
+            <textarea placeholder="Message" rows="5"></textarea>
+          </p>
+          <p><input type="submit" value="Senda"></p>
+        </fieldset>
+      </form>
+</body>
+</html>
+

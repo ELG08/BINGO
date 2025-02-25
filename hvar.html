@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML og CSS grunnur">
+    <meta name="author" content="Nemandi">
+    <title>Verkefni 1. Vinnurammi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/svg" href="images/rwd-icon.svg">
+</head>
+<body>
+  <nav class="topnav">
+    <input type="checkbox" id="toggle">
+    <label for="toggle">&#9776;</label>
+    <section class="topmenu">
+      <a href="index.html"><span class="icon-happy"></span> Forsíða</a>
+      <a href="panta.html"><span class="icon-ticket"></span> Panta borð</a>
+      <a href="verðskrá.html"><span class="icon-file-text"></span> Verðskrá</a>
+      <a href="hvar.html"><span class="icon-location"></span> Hvar</a>
+    </section>
+
+  </nav>
+  <header class="litur">
+    <section class="container col-2">
+      <article>
+          <h1>Hvar</h1>
+          <p>
+              Bingo leikirnir fara fram í Tækniskólanum, sem er þægilegur og rúmgóður salur staðsettur í Reykjarvík. Við erum á Háteigsvegi 35-39, Salurinn okkar er stór, með mörgum sæti, þar sem þú getur setið þægilega og upplifað spennuna með öðrum þátttakendum.
+              Hér er gott pláss til að slappa af, ræða við aðra, og auðvitað, fylgjast með leiknum! Hvetjum þig til að koma með vinum eða fjölskyldu og taka þátt í fjörinu!
+          </p>
+      </article>
+      <section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1740.3038492400365!2d-21.90518152240696!3d64.13919981717676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48d674cc84500001%3A0x16719bf129fa31a7!2zVMOma25pc2vDs2xpbm4gSMOhdGVpZ3N2ZWd1cg!5e0!3m2!1sen!2sis!4v1739799362129!5m2!1sen!2sis" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="kort"></iframe>
+      </section>
+  </section>
+</header>
+
+<div>
+    <section class="container col-2 litur">
+        <table class="schedule">
+            <caption>Dagskrá, 30. mars</caption>
+            <thead>
+                <tr>
+                    <th><span class="icon-alarm"></span> Klukkan</th>
+                    <th><span class="icon-wondering"></span> Hvað gerist</th>
+                    <th><span class="icon-book"></span> Útskýring</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td data-label="Klukkan:">14:30</td>
+                <td data-label="Hvað gerist:">Húsið opnar</td>
+                <td data-label="Útskýring:">Húsið opnar og við bjóðum alla velkomna! Komdu tímanlega til að finna þitt sæti og kynna þér reglurnar áður en leikurinn hefst.</td>
+                </tr>
+                <tr>
+                    <td data-label="Klukkan:">15:00</td>
+                    <td data-label="Hvað gerist:">Bingo byrjar</td>
+                    <td data-label="Útskýring:">Leikurinn hefst og spennan fer í hámark! Vertu tilbúinn að taka þátt í þessu skemmtilega fjöri og glíma við að vinna stóran vinning.</td>
+                </tr>
+                <tr>
+                    <td data-label="Klukkan:">16:30</td>
+                    <td data-label="Hvað gerist:">30 mínútna hlé</td>
+                    <td data-label="Útskýring:">Við tökum smá hlé til að hvíla okkur, njóta góðs úrval af veitingum og ræða leikinn. Hér gefst einnig tækifæri til að kynnast öðrum þátttakendum og njóta samverunnar.</td>
+                </tr>
+                <tr>
+                    <td data-label="Klukkan:">17:00</td>
+                    <td data-label="Hvað gerist:">Bingo heldur áfram</td>
+                    <td data-label="Útskýring:">Leikurinn fer aftur í gang eftir hlé og við fáum fleiri tækifæri til að vinna og halda áfram með stemninguna.</td>
+                </tr>
+                <tr>
+                    <td data-label="Klukkan:">18:00</td>
+                    <td data-label="Hvað gerist:">Bingo lílkur og húsið lokast</td>
+                    <td data-label="Útskýring:">Bingo-viðburðurinn endar. Takk fyrir að taka þátt og við vonum að þú hafir haft gaman! Við sjáumst vonandi aftur næst!</td>
+                </tr>
+            </tbody>
+        </table>
+        <nav>
+          <span class="icon-BINGOlogo2 faera"></span>
+        </nav>
+    </section>
+</div>
+
+<footer class="container col-2  endir">
+  <dl>              <!--Description list -->
+    <dt>Nafn</dt>
+      <dd>ELG</dd>
+    <dt>Staðsetning Viðburðs</dt>
+      <dd>Tækniskólinn, Háteigsvegi 35-39</dd>
+    <dt>Dagsetning</dt>
+      <dd>30. mars</dd>
+    <dt>Vefhönnun</dt>
+      <dd>VEFÞ2VHB5AU, tölvubraut Tækniskólans</dd>
+  </dl>  
+
+  <nav>
+    <span class="icon-BINGOlogo2 stor"></span>
+  </nav>
+
+</footer>
+<p class="center endir">&copy;ELG</p>
+
+<section class="Chat">
+  <input type="checkbox" id="togglechat">
+  <label for="togglechat" class="chat"><span class="icon-bubbles3"></span></label>
+  <section class="chatbox">
+    <form method="get" action="takk.html">
+      <fieldset>
+        <legend><strong>Spjallbox</strong></legend>
+        <p>
+          <label>Nafn:</label><br>
+          <input type="text" placeholder="Name" required></p>
+        <p>
+          <label>Tölvupóstur:</label><br> 
+          <input type="email" placeholder="Email" required></p>
+        <p>
+          <label>Skilaboð:</label><br>
+          <textarea placeholder="Message" rows="5"></textarea>
+        </p>
+        <p><input type="submit" value="Senda"></p>
+      </fieldset>
+    </form>
+</body>
+</html>

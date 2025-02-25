@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML og CSS grunnur">
+    <meta name="author" content="Nemandi">
+    <title>Verkefni 1. Vinnurammi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/svg" href="images/rwd-icon.svg">
+</head>
+<body>
+  <nav class="topnav">
+    <input type="checkbox" id="toggle">
+    <label for="toggle">&#9776;</label>
+    <section class="topmenu">
+      <a href="index.html"><span class="icon-happy"></span> Forsíða</a>
+      <a href="panta.html"><span class="icon-ticket"></span> Panta borð</a>
+      <a href="verðskrá.html"><span class="icon-file-text"></span> Verðskrá</a>
+      <a href="hvar.html"><span class="icon-location"></span> Hvar</a>
+    </section>
+
+  </nav>
+  <header class="container litur">
+      <section class="container col-3 tafla">
+          <table class="schedule">
+              <caption>Veitningar</caption>
+              <thead>
+                  <tr>
+                      <th><span class="icon-price-tag"></span> Vara</th>
+                      <th><span class="icon-credit-card"></span> Verð</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                  <td data-label="Vara:">Skúffukaka</td>
+                  <td data-label="Verð:">500 kr</td>
+                  </tr>
+                  <tr>
+                      <td data-label="Vara:">Browne</td>
+                      <td data-label="Verð:">500 kr</td>
+                  </tr>
+                  <tr>
+                      <td data-label="Vara:">smákaka</td>
+                      <td data-label="Verð:">450 kr</td>
+                  </tr>
+                  <tr>
+                      <td data-label="Vara:">Blandað kex</td>
+                      <td data-label="Verð:">450 kr</td>
+                  </tr>
+                  <tr>
+                      <td data-label="Vara:">Ávextir</td>
+                      <td data-label="Verð:">300 kr</td>
+                  </tr>
+              </tbody>
+          </table>
+          <table class="schedule">
+              <caption>Drykkir</caption>
+              <thead>
+                  <tr>
+                      <th><span class="icon-price-tag"></span> Vara</th>
+                      <th><span class="icon-credit-card"></span> Verð</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                  <td data-label="Vara:">Gos dós</td>
+                  <td data-label="Verð:">350 kr</td>
+                  </tr>
+                  <tr>
+                      <td data-label="Vara:">Kaffi</td>
+                      <td data-label="Verð:">400 kr</td>
+                  </tr>
+                  <tr>
+                      <td data-label="Vara:">Kakó</td>
+                      <td data-label="Verð:">400 kr</td>
+                  </tr>
+                  <tr>
+                      <td data-label="Vara:">Te</td>
+                      <td data-label="Verð:">400 kr</td>
+                  </tr>
+                  <tr>
+                      <td data-label="Vara:">Svali</td>
+                      <td data-label="Verð:">300 kr</td>
+                  </tr>
+              </tbody>
+          </table>
+          <table class="schedule">
+              <caption>BINGO spjöld</caption>
+              <thead>
+                  <tr>
+                      <th><span class="icon-price-tag"></span> Vara</th>
+                      <th><span class="icon-credit-card"></span> Verð</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                  <td data-label="Vara:">1 spjald</td>
+                  <td data-label="Verð:">500 kr</td>
+                  </tr>
+                  <tr>
+                      <td data-label="Vara:">3 spjöld</td>
+                      <td data-label="Verð:">1000 kr</td>
+                  </tr>
+                  <tr>
+                      <td data-label="Vara:">5 spjöld</td>
+                      <td data-label="Verð:">1500 kr</td>
+                  </tr>
+                  <tr>
+                      <td data-label="Vara:">10 spjöld</td>
+                      <td data-label="Verð:">3500 kr</td>
+                  </tr>
+              </tbody>
+          </table>
+      </section>
+</header>
+
+
+<footer class="container col-2 endir">
+  <dl>              <!--Description list -->
+    <dt>Nafn</dt>
+      <dd>ELG</dd>
+    <dt>Staðsetning Viðburðs</dt>
+      <dd>Tækniskólinn, Háteigsvegi 35-39</dd>
+    <dt>Dagsetning</dt>
+      <dd>30. mars</dd>
+    <dt>Vefhönnun</dt>
+      <dd>VEFÞ2VHB5AU, tölvubraut Tækniskólans</dd>
+  </dl>  
+
+  <nav>
+    <span class="icon-BINGOlogo2 stor"></span>
+  </nav>
+
+</footer>
+<p class="center endir">&copy;ELG</p>
+  
+<section class="Chat">
+  <input type="checkbox" id="togglechat">
+  <label for="togglechat" class="chat"><span class="icon-bubbles3"></span></label>
+  <section class="chatbox">
+    <form method="get" action="takk.html">
+      <fieldset>
+        <legend><strong>Spjallbox</strong></legend>
+        <p>
+          <label>Nafn:</label><br>
+          <input type="text" placeholder="Name" required></p>
+        <p>
+          <label>Tölvupóstur:</label><br> 
+          <input type="email" placeholder="Email" required></p>
+        <p>
+          <label>Skilaboð:</label><br>
+          <textarea placeholder="Message" rows="5"></textarea>
+        </p>
+        <p><input type="submit" value="Senda"></p>
+      </fieldset>
+    </form>
+</body>
+</html>
